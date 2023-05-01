@@ -1,0 +1,80 @@
+.page_project{
+    width: calc(100vw - 100px);
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // padding-top: 150px;
+}
+
+.title_container{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: right;
+
+    h1{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+        border-bottom: 2px solid white;
+
+        span{
+            &:nth-child(1){
+                font-family: "Dela Gothic One", cursive, sans-serif;
+                font-size: 71px;
+            }
+    
+            &:nth-child(2){
+                font-size: 40px;
+                font-family: "Anton";
+            }
+        }  
+    }
+
+    
+}
+.project_banner{
+    margin-top: 37px;
+    width: 1138px;
+    height: 275px;
+    border-radius: 0px 0px 40px 40px;
+    object-fit: cover;
+}
+
+.project_info{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+
+    h1{
+        font-family: 'Dela Gothic One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 58px;
+        width: 80%;
+        border-bottom: 2px solid white;
+    }
+}.project_info_text{
+    font-family: "Dela Gothic One", cursive, sans-serif;
+    display: flex;
+    background: red;
+    p{
+        width: 60%;
+    }
+}
+.project_info_list{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.project_actionare{
+    
+}
