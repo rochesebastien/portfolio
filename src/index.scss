@@ -29,8 +29,6 @@
   --main_color: black;
   --second_color: #fff;
   --scd_color: #f1f1f17a;
-  --text_font: "Dela Gothic One";
-  --num_font: "Anton";
   // --main_bg: url("../../img/background/black_bg.jpg");
   --big_title_size: calc(40 * (0.03 * 10vmin));
   --title_size: calc(25px + 3.3vw);
@@ -42,13 +40,18 @@ html {
 }
 
 body {
+  overflow: hidden;
   background-image: var(--main_bg);
   background-attachment: fixed;
   background-color: black;
-  color:var(--second_color);
+  color:var(--second_color)
+}
+
+.layout{
+  display: flex;
 }
 
 .page-container{
   width: 100%;
-  flex-grow: 1;
+  margin-left: 100px;
 }

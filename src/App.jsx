@@ -2,8 +2,6 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import Header from "./layout/Header/Header";
-import Footer from "./layout/Footer/Footer";
 
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg' Logo a changer
@@ -23,7 +21,6 @@ function App() {
 
   return (
     <div className="App">
-     <Header/>
           <Routes>
             <Route path="/projects/:id" element={<Project />} />
             <Route path="" element={<Home />} />
