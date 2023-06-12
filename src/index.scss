@@ -13,9 +13,9 @@
 
 @font-face {
   font-family: "Mona Sans";
-  src: url(../public/assets/fonts/Mona-Sans.woff) format("woff"),
-            url(../public/assets/fonts/Mona-Sans.ttf) format("ttf");
-  font-stretch: 150%;
+  src: url(/assets/fonts/Mona-Sans.woff) format("woff"),
+            url(/assets/fonts/Mona-Sans.woff) format("ttf");
+            font-stretch: 150%;
   font-weight: 600;
 }
 
@@ -53,5 +53,4 @@ body {
 
 .page-container{
   width: 100%;
-  margin-left: 100px;
 }

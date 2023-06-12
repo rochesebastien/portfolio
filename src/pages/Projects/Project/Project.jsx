@@ -46,7 +46,7 @@ function Project(props){
             
 
             
-            <div className={styles.project_nav}>
+            <div className="project_nav">
               <span><Link to={`/projects`} >Project Précdent</Link></span>
               <span><Link to={`/projects`} >Project Suivant</Link></span>
             </div>
