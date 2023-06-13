@@ -3,14 +3,10 @@
     "id": 1,
     "title": "Intranet DDSP23 - Police Nationale",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "date": "2022-01-01",
+    "year": "2020",
     "category": "Catégorie A",
-    "context": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "languages": [
-      "Lorem",
-      "Ipsum",
-      "Dolor"
-    ],
+    "context": "Ecole",
+    "languages": "PHP / HTML / JS / CSS",
     "image": "https://via.placeholder.com/150",
     "pdf_link": "https://via.placeholder.com/150",
     "github_link": "https://github.com/LoremIpsum"
@@ -19,14 +15,10 @@
     "id": 2,
     "title": "Application gestion de stock - Police Nationale",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "date": "2022-02-01",
+    "year": "2022-02-01",
     "category": "Catégorie B",
-    "context": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "languages": [
-      "Lorem",
-      "Ipsum",
-      "Dolor"
-    ],
+    "context": "Ecole",
+    "languages": "Lorem",
     "image": "https://via.placeholder.com/150",
     "pdf_link": "https://via.placeholder.com/150",
     "github_link": "https://github.com/LoremIpsum"
@@ -35,14 +27,10 @@
     "id": 3,
     "title": "Ligue de Basket de Lorraine",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "date": "2022-03-01",
+    "year": "2022-03-01",
     "category": "Catégorie C",
-    "context": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "languages": [
-      "Lorem",
-      "Ipsum",
-      "Dolor"
-    ],
+    "context": "Ecole",
+    "languages": "Lorem",
     "image": "https://via.placeholder.com/150",
     "pdf_link": "https://via.placeholder.com/150",
     "github_link": "https://github.com/LoremIpsum"
@@ -51,14 +39,10 @@
     "id": 4,
     "title": "Site de Réservation d’hotel",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "date": "2022-03-01",
+    "year": "2022-03-01",
     "category": "Catégorie C",
-    "context": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "languages": [
-      "Lorem",
-      "Ipsum",
-      "Dolor"
-    ],
+    "context": "Ecole",
+    "languages": "Lorem",
     "image": "https://via.placeholder.com/150",
     "pdf_link": "https://via.placeholder.com/150",
     "github_link": "https://github.com/LoremIpsum"
@@ -67,14 +51,10 @@
     "id": 5,
     "title": "Angular Medecins",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "date": "2022-03-01",
+    "year": "2022-03-01",
     "category": "Catégorie C",
-    "context": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "languages": [
-      "Lorem",
-      "Ipsum",
-      "Dolor"
-    ],
+    "context": "Ecole",
+    "languages": "Lorem",
     "image": "https://via.placeholder.com/150",
     "pdf_link": "https://via.placeholder.com/150",
     "github_link": "https://github.com/LoremIpsum"
@@ -83,14 +63,10 @@
     "id": 6,
     "title": "Le P’tit Jardinier Symfony",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "date": "2022-03-01",
+    "year": "2022-03-01",
     "category": "Catégorie C",
-    "context": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "languages": [
-      "Lorem",
-      "Ipsum",
-      "Dolor"
-    ],
+    "context": "Ecole",
+    "languages": "Lorem",
     "image": "https://via.placeholder.com/150",
     "pdf_link": "https://via.placeholder.com/150",
     "github_link": "https://github.com/LoremIpsum"
@@ -99,14 +75,10 @@
     "id": 7,
     "title": "Application de PorteOuvertes",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "date": "2022-03-01",
+    "year": "2022-03-01",
     "category": "Catégorie C",
-    "context": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "languages": [
-      "Lorem",
-      "Ipsum",
-      "Dolor"
-    ],
+    "context": "Ecole",
+    "languages": "Lorem",
     "image": "https://via.placeholder.com/150",
     "pdf_link": "https://via.placeholder.com/150",
     "github_link": "https://github.com/LoremIpsum"
@@ -115,14 +87,10 @@
     "id": 8,
     "title": "Ce Portfolio ",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "date": "2022-03-01",
+    "year": "2022-03-01",
     "category": "Catégorie C",
-    "context": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "languages": [
-      "Lorem",
-      "Ipsum",
-      "Dolor"
-    ],
+    "context": "Perso",
+    "languages": "Lorem",
     "image": "https://via.placeholder.com/150",
     "pdf_link": "https://via.placeholder.com/150",
     "github_link": "https://github.com/LoremIpsum"
@@ -131,14 +99,10 @@
     "id": 9,
     "title": "Pokédex Online",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "date": "2022-03-01",
+    "year": "2022-03-01",
     "category": "Catégorie C",
-    "context": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "languages": [
-      "Lorem",
-      "Ipsum",
-      "Dolor"
-    ],
+    "context": "Perso",
+    "languages": "Lorem",
     "image": "https://via.placeholder.com/150",
     "pdf_link": "https://via.placeholder.com/150",
     "github_link": "https://github.com/LoremIpsum"
@@ -147,14 +111,10 @@
     "id": 10,
     "title": "ValoRank",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "date": "2022-03-01",
+    "year": "2022-03-01",
     "category": "Catégorie C",
-    "context": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "languages": [
-      "Lorem",
-      "Ipsum",
-      "Dolor"
-    ],
+    "context": "Perso",
+    "languages": "Lorem",
     "image": "https://via.placeholder.com/150",
     "pdf_link": "https://via.placeholder.com/150",
     "github_link": "https://github.com/LoremIpsum"
@@ -163,14 +123,10 @@
     "id": 11,
     "title": "Typing Game for Dev",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "date": "2022-03-01",
+    "year": "2022-03-01",
     "category": "Catégorie C",
-    "context": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "languages": [
-      "Lorem",
-      "Ipsum",
-      "Dolor"
-    ],
+    "context": "Perso",
+    "languages": "Lorem",
     "image": "https://via.placeholder.com/150",
     "pdf_link": "https://via.placeholder.com/150",
     "github_link": "https://github.com/LoremIpsum"
@@ -179,14 +135,10 @@
     "id": 12,
     "title": "Lemon Card",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "date": "2022-03-01",
+    "year": "2022-03-01",
     "category": "Catégorie C",
-    "context": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "languages": [
-      "Lorem",
-      "Ipsum",
-      "Dolor"
-    ],
+    "context": "Perso",
+    "languages": "Lorem",
     "image": "https://via.placeholder.com/150",
     "pdf_link": "https://via.placeholder.com/150",
     "github_link": "https://github.com/LoremIpsum"

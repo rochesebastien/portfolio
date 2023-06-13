@@ -20,7 +20,7 @@ function Projects() {
           <div className="left">
             <ul>
                 {ProjectsData.map((project) => (
-                  <li onMouseEnter={(e) => ChangeImgProject(e,project.id)} key={project.id}><Link to={`/projects/${project.id}`} className="nav__link" >{project.title}</Link></li>
+                  <li onMouseEnter={(e) => ChangeImgProject(e,project.id)} key={project.id}><Link to={`/projects/${project.id-1}`} className="nav__link" >{project.title}</Link></li>
               ))}
           </ul>
           </div>

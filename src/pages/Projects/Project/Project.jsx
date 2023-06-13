@@ -6,9 +6,8 @@ import { Link } from "react-router-dom";
 function Project(props){
   let {id}= useParams(); 
   console.log(id);
-    // 
-    const src = `/assets/img/projet${id}.jpg`;
-    let project = ProjectsData[id]
+  const src = `/assets/img/projet${id}.jpg`;
+  let project = ProjectsData[id]
     
     
     return (
@@ -17,7 +16,7 @@ function Project(props){
           
             <h1>
                 <span>PROJECTS {id}</span>
-                <span><Link to={`/projects`} >retour</Link></span>
+                <span><Link to={`/projects`}>retour</Link></span>
             </h1>
             </div>
             <img id="tg" className="project_banner" src={src} alt=""/>
@@ -33,9 +32,9 @@ function Project(props){
                   <span>contexte</span>
                 </div>
                 <div className="project_info_list">
-                  <span>2022</span>
-                  <span>WEB</span>
-                  <span>Perso</span>
+                  <span>{project.year}</span>
+                  <span>{project.languages}</span>
+                  <span>{project.context}</span>
                 </div>
               </div>
               <div className="project_actionarea">
