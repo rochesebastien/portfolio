@@ -4,7 +4,7 @@ function Home() {
     return (
       <div className="">
         <div className="home page-container">
-          Ceci est une page d'accueil
+          <img src="/assets/logo.svg" alt="" />
         </div>
         <div className="me page-container">
         Ceci est une page présentation

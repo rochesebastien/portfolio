@@ -4,12 +4,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url('/assets/bg.png');
+    background-size: cover;
+    background-position: center;
 }
 
-.me{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
