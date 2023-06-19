@@ -5,7 +5,6 @@ import {
 
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg' Logo a changer
-import './App.scss'
 
 
 import About from "./pages/About/About";
@@ -21,15 +20,17 @@ function App() {
 
   return (
     <div className="App">
-          <Routes>
-            <Route path="/projects/:id" element={<Project />} />
-            <Route path="" element={<Home />} />
-            <Route path="projects" element={<Projects />} />
+          {/* <Routes> */}
+            {/* <Route path="/projects/:id" element={<Project />} /> */}
+            {/* <Route path="" element={<Home />} /> */}
+            {/* <Route path="projects" element={<Projects />} />
             <Route path="skills" element={<Skills />} />
             <Route path="formations" element={<Formations />} />
             <Route path="about" element={<About />} />
             <Route path="contact" element={<Contact />} />
-          </Routes>
+          </Routes> */}
+          <Home/>
+          <About/>
     </div>
   )
 }
