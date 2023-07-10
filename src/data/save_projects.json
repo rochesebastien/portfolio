@@ -4,11 +4,11 @@
     "title": "Intranet DDSP23 - Police Nationale",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "year": "2020",
-    "category": "Catégorie A",
+    "category": "web",
     "context": "Ecole",
     "languages": "PHP / HTML / JS / CSS",
-    "image": "https://via.placeholder.com/150",
-    "pdf_link": "https://via.placeholder.com/150",
+    "image": "/assets/img/noise.png",
+    "pdf_link": "/assets/img/noise.png",
     "github_link": "https://github.com/LoremIpsum"
   },
   {
@@ -16,11 +16,11 @@
     "title": "Application gestion de stock - Police Nationale",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "year": "2022-02-01",
-    "category": "Catégorie B",
+    "category": "web",
     "context": "Ecole",
-    "languages": "Lorem",
-    "image": "https://via.placeholder.com/150",
-    "pdf_link": "https://via.placeholder.com/150",
+    "languages": "PHP / HTML / JS / CSS",
+    "image": "/assets/img/noise.png",
+    "pdf_link": "/assets/img/noise.png",
     "github_link": "https://github.com/LoremIpsum"
   },
   {
@@ -28,23 +28,23 @@
     "title": "Ligue de Basket de Lorraine",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "year": "2022-03-01",
-    "category": "Catégorie C",
+    "category": "web",
     "context": "Ecole",
-    "languages": "Lorem",
-    "image": "https://via.placeholder.com/150",
-    "pdf_link": "https://via.placeholder.com/150",
+    "languages": "PHP / JS",
+    "image": "/assets/img/noise.png",
+    "pdf_link": "/assets/img/noise.png",
     "github_link": "https://github.com/LoremIpsum"
   },
   {
     "id": 4,
-    "title": "Site de Réservation d’hotel",
+    "title": "Site de Réservation d’hôtel",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "year": "2022-03-01",
-    "category": "Catégorie C",
+    "category": "web",
     "context": "Ecole",
     "languages": "Lorem",
-    "image": "https://via.placeholder.com/150",
-    "pdf_link": "https://via.placeholder.com/150",
+    "image": "/assets/img/noise.png",
+    "pdf_link": "/assets/img/noise.png",
     "github_link": "https://github.com/LoremIpsum"
   },
   {
@@ -52,11 +52,11 @@
     "title": "Angular Medecins",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "year": "2022-03-01",
-    "category": "Catégorie C",
+    "category": "web",
     "context": "Ecole",
     "languages": "Lorem",
-    "image": "https://via.placeholder.com/150",
-    "pdf_link": "https://via.placeholder.com/150",
+    "image": "/assets/img/noise.png",
+    "pdf_link": "/assets/img/noise.png",
     "github_link": "https://github.com/LoremIpsum"
   },
   {
@@ -67,8 +67,8 @@
     "category": "Catégorie C",
     "context": "Ecole",
     "languages": "Lorem",
-    "image": "https://via.placeholder.com/150",
-    "pdf_link": "https://via.placeholder.com/150",
+    "image": "/assets/img/noise.png",
+    "pdf_link": "/assets/img/noise.png",
     "github_link": "https://github.com/LoremIpsum"
   },
   {
@@ -79,8 +79,8 @@
     "category": "Catégorie C",
     "context": "Ecole",
     "languages": "Lorem",
-    "image": "https://via.placeholder.com/150",
-    "pdf_link": "https://via.placeholder.com/150",
+    "image": "/assets/img/noise.png",
+    "pdf_link": "/assets/img/noise.png",
     "github_link": "https://github.com/LoremIpsum"
   },
   {
@@ -91,8 +91,8 @@
     "category": "Catégorie C",
     "context": "Perso",
     "languages": "Lorem",
-    "image": "https://via.placeholder.com/150",
-    "pdf_link": "https://via.placeholder.com/150",
+    "image": "/assets/img/noise.png",
+    "pdf_link": "/assets/img/noise.png",
     "github_link": "https://github.com/LoremIpsum"
   },
   {
@@ -103,8 +103,8 @@
     "category": "Catégorie C",
     "context": "Perso",
     "languages": "Lorem",
-    "image": "https://via.placeholder.com/150",
-    "pdf_link": "https://via.placeholder.com/150",
+    "image": "/assets/img/noise.png",
+    "pdf_link": "/assets/img/noise.png",
     "github_link": "https://github.com/LoremIpsum"
   },
   {
@@ -115,8 +115,8 @@
     "category": "Catégorie C",
     "context": "Perso",
     "languages": "Lorem",
-    "image": "https://via.placeholder.com/150",
-    "pdf_link": "https://via.placeholder.com/150",
+    "image": "/assets/img/noise.png",
+    "pdf_link": "/assets/img/noise.png",
     "github_link": "https://github.com/LoremIpsum"
   },
   {
@@ -127,8 +127,8 @@
     "category": "Catégorie C",
     "context": "Perso",
     "languages": "Lorem",
-    "image": "https://via.placeholder.com/150",
-    "pdf_link": "https://via.placeholder.com/150",
+    "image": "/assets/img/noise.png",
+    "pdf_link": "/assets/img/noise.png",
     "github_link": "https://github.com/LoremIpsum"
   },
   {
@@ -139,8 +139,8 @@
     "category": "Catégorie C",
     "context": "Perso",
     "languages": "Lorem",
-    "image": "https://via.placeholder.com/150",
-    "pdf_link": "https://via.placeholder.com/150",
+    "image": "/assets/img/noise.png",
+    "pdf_link": "/assets/img/noise.png",
     "github_link": "https://github.com/LoremIpsum"
   }
   

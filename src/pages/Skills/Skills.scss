@@ -1,0 +1,24 @@
+.skills {
+    ul{
+        width: 100%;
+        margin: 0 auto;
+
+        li{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            font-size: 7rem;
+            font-family: "Mona Sans";
+            font-weight: 700 125;
+            // font-stretch: 75% 125%;
+
+            .left{
+                display: flex;
+
+                .slash{
+                    color: #eb5e28;
+                }
+            }
+        }
+    }
+}
