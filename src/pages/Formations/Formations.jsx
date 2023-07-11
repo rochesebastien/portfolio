@@ -1,9 +1,11 @@
-function Me() {
+import './Formations.scss'
+
+function Formations() {
     return (
-      <div className="me page-container">
+      <div className="formations page-container">
         Voici mes formations
       </div>
     );
   }
   
-  export default Me;
+  export default Formations;

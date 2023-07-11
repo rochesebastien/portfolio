@@ -1,0 +1,22 @@
+.contact{
+    width: 100%;
+    height: 100vh;
+
+    h1{
+        font-size: var(--big_title_size);
+        font-family: "Mona Sans";
+    }
+
+    .contact_list{
+        width: calc(100% - 30px);
+        display: flex;
+        gap: 1rem;
+        padding-left: 30px;
+
+        span,a{
+            color: white;
+            font-size: calc( var(--title_size));
+            font-family: "Mona Sans";
+        }
+    }
+}

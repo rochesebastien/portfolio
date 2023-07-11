@@ -1,21 +1,35 @@
 .skills {
     ul{
-        width: 100%;
+        width: 90%;
         margin: 0 auto;
+        padding-top: 10rem;
 
         li{
-            width: 100%;
+            width: 85%;
             display: flex;
             justify-content: space-between;
-            font-size: 7rem;
+            font-size: var(--big_title_size);
             font-family: "Mona Sans";
-            font-weight: 700 125;
-            // font-stretch: 75% 125%;
+            // font-weight: 700 125;
+            margin: 0 auto;
+            padding: 1rem 1rem;
+            border-bottom: 2px solid white;
+            transition: 0.3s ease-in;
+
+            &:hover{
+                background: #eb5e28;
+                color: black;
+
+                .left .slash{
+                    color: white;
+                }
+            }
 
             .left{
                 display: flex;
 
                 .slash{
+                    transition: 0.3s ease-in;
                     color: #eb5e28;
                 }
             }

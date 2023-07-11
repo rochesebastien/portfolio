@@ -4,6 +4,8 @@ import Project from '../Projects/Projects';
 
 // import Projects from "./pages/Projects/Projects";
 import Skills from "../Skills/Skills";
+import Formations from '../Formations/Formations';
+import Contact from '../Contact/Contact';
 
 function Home() {
     return (
@@ -14,6 +16,8 @@ function Home() {
       <About/>
       <Project/>
       <Skills />
+      {/* <Formations /> */}
+      <Contact />
     </div>
     );
   }
