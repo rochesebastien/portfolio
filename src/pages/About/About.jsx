@@ -8,7 +8,7 @@ function Me() {
         </div>
         <div className="right">
             <p>
-            Je m’appelle Sébastien, j’ai 20 ans et je suis en bachelor logiciel et web. M’intéressant aux nouvelles technologies depuis petit, je souhaite devenir développeur web frontend / full-stack.
+            Mon nom est Roche Sébastien. Possédant un attrait pour l’informatique depuis tout petit, et poussé par ma curiosité, j’ai voulu comprendre comment les jeux de mon enfance fonctionnaient. C’est alors que j’ai découvert le développement web et que j’ai décidé d’en faire mon futur métier. En alliant ma curiosité et ma réflexion, j’ai poursuivi mes études et obtenu un Bachelor CSI option développement logiciel et web, que je compte accompagner d’un Master Développeur Web Full Stack.
             <a href="../../assets/files/cv.pdf" target="_blank">Voir mon CV</a>
             </p>
             
