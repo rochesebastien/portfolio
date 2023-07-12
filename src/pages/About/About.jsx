@@ -9,7 +9,7 @@ function Me() {
         <div className="right">
             <p>
             Je m’appelle Sébastien, j’ai 20 ans et je suis en bachelor logiciel et web. M’intéressant aux nouvelles technologies depuis petit, je souhaite devenir développeur web frontend / full-stack.
-            <button>Voir mon CV</button>
+            <a href="../../assets/files/cv.pdf" target="_blank">Voir mon CV</a>
             </p>
             
         </div>

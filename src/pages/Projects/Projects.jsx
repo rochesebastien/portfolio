@@ -16,7 +16,6 @@ function Projects() {
     <div className="projects">
             {ProjectsData.map((project,index) => (
                     <Link to={`/projects/${project.id}`} className='project-item' onClick={(e) => handleClick(index)} key={project.id}>
-                      {/* <img src={`/assets/img/projet${project.id}.jpg`}/> */}
                       <div className="left">
                         <div className="hover">
                         </div>

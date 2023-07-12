@@ -10,13 +10,17 @@ function Project(props){
   const src = `/assets/img/projet${id}.jpg`;
   let project = ProjectsData[id-1]
     console.log(project);
+
+    const back = () => {
+      window.history.back();
+    }
     
     return (
       <div className="page_project">
         <Navbar/>
       <div className="title">
         <h1>Projet {id}</h1>
-        <Link to={'/'}>retour</Link>
+        <span onClick={back}>retour</span>
       </div>
       <img src="" alt="" />
       <h2>{project.title}</h2>
