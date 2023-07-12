@@ -15,13 +15,14 @@ function Projects() {
   return (
     <div className="projects">
             {ProjectsData.map((project,index) => (
-                    <Link to={`/projects/${project.id-1}`} className='project-item' onClick={(e) => handleClick(index)} key={project.id}>
+                    <Link to={`/projects/${project.id}`} className='project-item' onClick={(e) => handleClick(index)} key={project.id}>
                       {/* <img src={`/assets/img/projet${project.id}.jpg`}/> */}
                       <div className="left">
                         <div className="hover">
                         </div>
                         <img src={project.image} alt=""/>
-                        <span className="name">Feur</span>
+                        {/* <span className="name">Feur</span> */}
+                        <span className="name">{project.title}</span>
                       </div>
                       <div className="right">
                         <span className="number">

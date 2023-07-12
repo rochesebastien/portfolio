@@ -27,9 +27,9 @@ function Skills() {
           <div className="left">
               <span className='word'>React</span>
               <span className='slash'>/</span>
-              <span className='word'>Vue.JS</span>
+              <span className='word'>Angular</span>
               <span className="slash">/</span>
-              <span className="word">Angular</span>
+              <span className="word">Vue</span>
             </div>
             <span>03</span>
           </li>
@@ -79,7 +79,7 @@ function Skills() {
             <div div className="left">
               <span className='word'>GIT</span>
               <span className='slash'>/</span>
-              <span className='word'>Commandes Linux</span>
+              <span className='word'>Env. Linux</span>
             </div>
             <span>09</span>
           </li>
