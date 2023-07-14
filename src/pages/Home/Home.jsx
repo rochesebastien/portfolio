@@ -16,7 +16,7 @@ function Home() {
       <About/>
       <Project/>
       <Skills />
-      {/* <Formations /> */}
+      <Formations />
       <Contact />
     </div>
     );

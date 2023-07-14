@@ -3,7 +3,8 @@ import './Formations.scss'
 function Formations() {
     return (
       <div className="formations page-container">
-        Voici mes formations
+        <input type="range" name="" id="" />
+        <span>👈 Bouge le point 👉</span>
       </div>
     );
   }

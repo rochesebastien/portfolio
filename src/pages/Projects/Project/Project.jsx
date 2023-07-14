@@ -29,7 +29,7 @@ function Project(props){
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, deserunt!</p> 
         <hr />
         <div className="lang_info">
-          <span className='first'>Langages : </span>
+          <span className='first'>Stack : </span>
           <span className='items'>{project.languages}</span>
         </div>
         <div className="links">
