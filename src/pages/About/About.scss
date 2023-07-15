@@ -17,6 +17,8 @@
             border: 4px solid #eb5e28;
             padding: 2rem;
             transition: 0.2s ease-in-out;
+            animation: 2s ppPulse infinite linear;
+
             &:hover{
                 transform: scale(1.2);
                 padding: 0px;
@@ -59,16 +61,16 @@
     }
 }
 
-@keyframes tourne {
-    0% {
-        transform: rotate(0deg);
+@keyframes ppPulse {
+    0%{
+        padding: 2rem;
     }
 
-    50% {
-        transform: rotate(360deg);
+    50%{
+        padding: 3rem;
     }
 
-    100% {
-        transform: rotate(0deg);
+    100%{
+        padding: 2rem;
     }
 }

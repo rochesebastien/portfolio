@@ -22,10 +22,6 @@ function App() {
             <Route path="/projects/:id" element={<Project />} /> 
             <Route path="" element={<Home />} /> 
           </Routes> 
-          {/* <Home/>
-          <About/>
-          <Projects/>
-          <Skills/> */}
     </div>
   )
 }
