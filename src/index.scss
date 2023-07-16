@@ -26,7 +26,7 @@
   --main_color: black;
   --second_color: #fff;
   --scd_color: #f1f1f17a;
-  // --main_bg: url("../../img/background/black_bg.jpg");
+  --main_bg: url("assets/bg.png");
   --big_title_size: calc(40 * (0.03 * 10vmin));
   --title_size: calc(25px + 2.5vw);
   --text_size: calc(30 * (0.01 * 10vmin));
@@ -50,4 +50,5 @@ body {
 
 .page-container {
   width: 100%;
+  background-color: rgba(0, 0, 0, 0.395);
 }
