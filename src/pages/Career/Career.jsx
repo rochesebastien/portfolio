@@ -15,7 +15,7 @@ function Career() {
     changetoggle(false_toggle);
   }
     return (
-      <div className="career page-container">
+      <div id="career" className="career page-container">
         <div className="career_ctn">
           <div className="actions_row">
             <button className={toggle ? 'active' : ''} onClick={switchTrue}>Expériences</button>

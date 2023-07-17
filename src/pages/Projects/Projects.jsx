@@ -5,15 +5,13 @@ import { useState } from 'react';
 
 function Projects() {
   const [currentIndex, setCurrentIndex] = useState(0);
-  console.log(currentIndex);
 
   const handleClick = (index) => {
-    console.log(index);
     setCurrentIndex(index);
   };
 
   return (
-    <div className="projects">
+    <div id="projects" className="projects">
             {ProjectsData.map((project,index) => (
                     <Link to={`/projects/${project.id}`} className='project-item' onClick={(e) => handleClick(index)} key={project.id}>
                       <div className="left">

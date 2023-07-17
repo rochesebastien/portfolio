@@ -20,8 +20,7 @@
             animation: 2s ppPulse infinite linear;
 
             &:hover{
-                transform: scale(1.2);
-                padding: 0px;
+                // transform: scale(1.2);
                 border: 5px solid #eb5e28;
             }
         }

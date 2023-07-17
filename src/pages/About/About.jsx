@@ -2,7 +2,7 @@ import './About.scss'
 
 function Me() {
     return (
-    <div className='about page-container'>
+    <div id="about" className='about page-container'>
         <div className="left">
             <img src="/assets/img/photo.png" alt="" />
         </div>
