@@ -36,3 +36,19 @@
         }
     }
 }
+
+@media screen and (max-width: 699px) {
+    .skills{
+        ul { 
+            width: 100%;
+            padding-top: 2rem;
+            margin: 0 0;
+            li{
+                width: 90%;
+                font-size: calc(0.5 * var(--big_title_size));
+                margin: 0 auto;
+            }
+        }
+        
+    }
+}

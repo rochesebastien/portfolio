@@ -1,6 +1,6 @@
 import './Projects.scss';
 import { Link } from "react-router-dom";
-import ProjectsData from "../../data/save_projects.json"
+import ProjectsData from "../../data/projects.json"
 import { useState } from 'react';
 
 function Projects() {
@@ -13,7 +13,7 @@ function Projects() {
   return (
     <div id="projects" className="projects">
             {ProjectsData.map((project,index) => (
-                    <Link to={`/projects/${project.id}`} className='project-item' onClick={(e) => handleClick(index)} key={project.id}>
+                    <Link to={`/projects/${project.id}`} className='project_item' onClick={(e) => handleClick(index)} key={project.id}>
                       <div className="left">
                         <div className="hover">
                         </div>

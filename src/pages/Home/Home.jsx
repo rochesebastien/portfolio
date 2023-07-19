@@ -20,42 +20,44 @@ function Home() {
 
   const hauteurTotale = Math.max(
     document.documentElement.scrollHeight, 
-    // document.documentElement.offsetHeight, 
-    // document.documentElement.clientHeight
   );
+  if (
+    /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Windows Phone/i.test(
+      navigator.userAgent
+    )
+  ){
+    console.log("MOBILE");
+  }
 
 
   window.onscroll = ()=>{
+
+      
     if(window.scrollY > window.innerHeight){
       setShowNavbar(true)
-      // console.log("oui "+window.scrollY);
-      // console.log(hauteurTotale);
       
     } else {
       setShowNavbar(false)
-      // console.log("non "+showNavbar);
     }
     if((Math.round(window.scrollY / hauteurTotale * 100) >= 95)){
       setProgressNavbar(100)
     } else {
       setProgressNavbar(Math.round(window.scrollY / hauteurTotale * 100))
     }
-    
-    console.log(progressNavbar);
   };
 
     return (
       <div>
         <Navbar toggled={showNavbar} progress={progressNavbar} />
         {/* <video src="/assets/bg.mp4" autoplay loop></video> */}
-        <div id="home" className="home page-container">
+        <div id="home" className="home page_container">
           {/* <img src="/assets/logo.svg" alt="" /> */}
           <Spline scene="https://prod.spline.design/cc6dfIlwTi790FJ0/scene.splinecode" />
           <div id="status">
             Etudiant développeur web
           </div>
         </div>
-      <Title section_name='Presentation' direction='left'/>
+      <Title section_name='Presentation' direction='left'/> 
       <About/>
       <Career />
       <Title section_name='Projets' direction='right'/>

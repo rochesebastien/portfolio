@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom';
 import  './Project.scss';
-import ProjectsData from "../../../data/save_projects.json"
+import ProjectsData from "../../../data/projects.json"
 import { Link } from "react-router-dom";
 import Navbar from '../../../components/Navbar/Navbar';
 
@@ -26,16 +26,16 @@ function Project(props){
       <h2>{project.title}</h2>
       <div className="project_info">
         <hr />
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, deserunt!</p> 
+        <p>{project.description}</p> 
         <hr />
         <div className="lang_info">
           <span className='first'>Stack : </span>
           <span className='items'>{project.languages}</span>
         </div>
         <div className="links">
-          {project.pdf_link !="" ? <a href="">Documentation</a> : ''}
-          {project.github_link !="" ? <a href="">Github du projet</a> : ''}
-          {project.figma_link ? <a href="">Proto Figma</a> : ''}
+          {project.pdf_link !="" ? <a href={project.pdf_link} target="_blank">Documentation</a> : ''}
+          {project.github_link !="" ? <a href={project.github_link} target="_blank">Github du projet</a> : ''}
+          {project.figma_link ? <a href={project.figma_link} target="_blank">Proto Figma</a> : ''}
         </div>
         <hr />
       </div>

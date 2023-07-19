@@ -1,12 +1,22 @@
+@media screen and (max-width: 699px) {
+    .three{
+        transform: scale(0.5);
+    }
+
+    .status{
+        top: 30%;
+    }
+}
+
 .home{
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    // background: url('/assets/bg.png');
     background-size: cover;
     background-position: center;
+
 }
 
 #status{
@@ -24,4 +34,6 @@
     font-family: "Mona Sans";
     -webkit-text-stroke: 1px white;
 }
+
+
 
