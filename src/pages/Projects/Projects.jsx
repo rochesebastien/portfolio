@@ -31,7 +31,6 @@ function Projects() {
                       </div>
                     </Link>
                 ))}             
-          {/* <span>{ProjectsData.length}</span> */}
       </div>           
   );
 }

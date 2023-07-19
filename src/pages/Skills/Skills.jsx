@@ -76,7 +76,7 @@ function Skills() {
             <span>08</span>
           </li>
           <li>
-            <div div className="left">
+            <div className="left">
               <span className='word'>GIT</span>
               <span className='slash'>/</span>
               <span className='word'>Env. Linux</span>

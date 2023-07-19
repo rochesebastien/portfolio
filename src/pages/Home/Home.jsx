@@ -21,17 +21,8 @@ function Home() {
   const hauteurTotale = Math.max(
     document.documentElement.scrollHeight, 
   );
-  if (
-    /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Windows Phone/i.test(
-      navigator.userAgent
-    )
-  ){
-    console.log("MOBILE");
-  }
-
 
   window.onscroll = ()=>{
-
       
     if(window.scrollY > window.innerHeight){
       setShowNavbar(true)
@@ -52,7 +43,7 @@ function Home() {
         {/* <video src="/assets/bg.mp4" autoplay loop></video> */}
         <div id="home" className="home page_container">
           {/* <img src="/assets/logo.svg" alt="" /> */}
-          <Spline scene="https://prod.spline.design/cc6dfIlwTi790FJ0/scene.splinecode" />
+          <Spline className="three" scene="https://prod.spline.design/cc6dfIlwTi790FJ0/scene.splinecode" />
           <div id="status">
             Etudiant développeur web
           </div>
@@ -61,7 +52,7 @@ function Home() {
       <About/>
       <Career />
       <Title section_name='Projets' direction='right'/>
-      <Projects/>
+      {/* <Projects/> */}
       <Title section_name='Talents' direction='left'/>
       <Skills />
       <Title section_name='Contact' direction='left'/>

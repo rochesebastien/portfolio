@@ -10,7 +10,7 @@ function Contact() {
         <h1>ENVIE DE DISCUTER ?</h1>      
         <div className="email contact_list">
           <img className="icons" src="/assets/icon/arobase.svg" alt="Email : " />
-          <a href="mailto:nsebastienroche230@gmail.com">sebastienroche230@gmail.com</a>
+          <a target="_blank" href="mailto:nsebastienroche230@gmail.com">sebastienroche230@gmail.com</a>
         </div>
         <div className="location contact_list">
           <img className="icons" src="/assets/icon/location.svg" alt="Où ?" />
@@ -19,9 +19,9 @@ function Contact() {
         <div className="links_ctn">
           <p>Vous pouvez aussi me retrouver sur : </p>
           <div className="links">
-            <a href=""><img className="icons" src="/assets/icon/linkedin.svg" alt="Linkedin" /></a>
-            <a href=""><img className="icons" src="/assets/icon/github.svg" alt="Github" /></a>
-            <a href=""><img className="icons" src="/assets/icon/behance.svg" alt="Behance" /></a>
+            <a target="_blank" href="https://www.linkedin.com/in/sebasti1roche/"><img className="icons" src="/assets/icon/linkedin.svg" alt="Linkedin" /></a>
+            <a target="_blank" href="https://github.com/rochesebastien"><img className="icons" src="/assets/icon/github.svg" alt="Github" /></a>
+            <a target="_blank" href="https://www.behance.net/sebastienroche"><img className="icons" src="/assets/icon/behance.svg" alt="Behance" /></a>
           </div>
         </div>
       </div>
