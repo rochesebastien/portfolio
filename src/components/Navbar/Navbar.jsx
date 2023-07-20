@@ -2,8 +2,7 @@ import './Navbar.scss'
 import { Link, useParams } from "react-router-dom";
 
 function Navbar(props) {
-    let {id}= useParams(); 
-
+    const bool = window.location.href.slice(-1) == "/" ? true : false;
     const ScrollToHome = (event) => {
         event.preventDefault();
         document.getElementById("home").scrollIntoView({ behavior: 'smooth' });
@@ -35,17 +34,17 @@ function Navbar(props) {
       };
 
 
-    if(!id){
+    if(bool){
         if(props.toggled){
             return (
                 <nav>
                     <img onClick={ScrollToHome} src="/assets/logo.svg" alt="Roche Sébastien" />
                     <div className="links">
                         <a onClick={ScrollToAbout}>A propos</a>
-                        <a onClick={ScrollToAbout}>Projets</a>
-                        <a onClick={ScrollToAbout}>Compétences</a>
-                        <a onClick={ScrollToAbout}>Carrière</a>
-                        <a onClick={ScrollToAbout}>Contact</a>
+                        <a onClick={ScrollToProjects}>Projets</a>
+                        <a onClick={ScrollToSkills}>Compétences</a>
+                        <a onClick={ScrollToCareer}>Carrière</a>
+                        <a onClick={ScrollToContact}>Contact</a>
                     </div>
                     <div className="bar" style={{ width: props.progress+"%" }}></div>
                 </nav>
@@ -53,14 +52,15 @@ function Navbar(props) {
         } else {
             return (
                 <div>
-    
                 </div>
             );
         }
     } else {
         return (
             <div className='second_nav'>
+              <Link to="">
                 <img src="/assets/logo.svg" alt="" />
+              </Link>
             </div>
         );
     }

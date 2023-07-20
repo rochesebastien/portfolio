@@ -5,18 +5,13 @@
         .section_title {
             font-size: calc(0.8 * var(--big_title_size)) !important;
               span {
-                  text-indent: 0px!important;
-                  line-height: 70%!important;
-                  width: 100%;
-                  text-align: center;
-                }
-            }
-            //   span {
-            //       text-indent: 0px !important;
-            //       line-height: 70% !important;
-            //       width: 100%;
-            //       text-align: center;
-            //     }
+                text-indent: 0px!important;
+                line-height: 70%!important;
+                width: 100%;
+                text-align: center;
+                margin-right: 0!important;
+              }
+            } 
     }
     
   }

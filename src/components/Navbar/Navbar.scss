@@ -14,6 +14,7 @@ nav{
     img{
         width: 100px;
         margin-left: 50px;
+        cursor: pointer;
     }
 
     .links{
@@ -22,10 +23,9 @@ nav{
         gap: 2rem;
         font-family: "Mona Sans";
         padding: 0rem 4rem;
-
+        cursor: pointer;
 
         a:hover{
-            cursor: pointer;
             color: #eb5e28;
         }
     }
