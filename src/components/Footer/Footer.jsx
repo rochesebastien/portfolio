@@ -6,7 +6,6 @@ function Footer() {
         event.preventDefault();
         document.getElementById("home").scrollIntoView({ behavior: 'smooth' });
       };
-      console.log(window.location.href);
 
     return (
     <div className='footer'>

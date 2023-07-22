@@ -58,8 +58,8 @@ function Navbar(props) {
     } else {
         return (
             <div className='second_nav'>
-              <Link to="">
-                <img src="/assets/logo.svg" alt="" />
+              <Link to="/">
+                <img src="/assets/logo.svg" alt="Roche Sébastien" />
               </Link>
             </div>
         );

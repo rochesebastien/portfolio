@@ -6,15 +6,17 @@
     align-items: center;
     width: 100vw;
     height: 100vh;
-    font-size: var(--big_title_size);
+
     font-family: "Mona Sans";
     text-transform: uppercase;
     h1{
         color: transparent;
         -webkit-text-stroke: 1px white;
+        font-size: var(--big_title_size);
     }
     .progress{
         color: #eb5e28;
         font-weight: bold;
+        font-size: var(--big_title_size);
     }
 }

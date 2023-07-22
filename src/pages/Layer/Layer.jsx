@@ -21,19 +21,25 @@ function Layer() {
 
   const [loading, setLoading] = useState(true);
   const [progress, setProgress] = useState(0);
-
+  const totalSteps = 20; // Nombre total d'étapes pour atteindre 100%
+  
   // Simulate the loading process
   useEffect(() => {
+    const increment = 100 / totalSteps;
+    let currentStep = 0;
+
     const interval = setInterval(() => {
       setProgress(prevProgress => {
-        const newProgress = prevProgress + 5; // You can adjust the increment value as needed
-        if (newProgress >= 100) {
+        const newProgress = prevProgress + increment;
+        currentStep++;
+
+        if (newProgress >= 100 || currentStep >= totalSteps) {
           clearInterval(interval);
           setLoading(false);
         }
         return newProgress;
       });
-    }, 500); // Adjust the interval to control the speed of loading
+    }, 200); // Rafraîchissement toutes les 0.2 seconde
 
     return () => {
       clearInterval(interval);
@@ -59,7 +65,7 @@ function Layer() {
     }
   };
 
-  if(loading){
+  if(false){
     return (
       <Loader progress={progress}/>
     )
