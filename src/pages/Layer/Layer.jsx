@@ -14,7 +14,6 @@ import Loader from '../../components/Loader/Loader';
 
 import { useState, useEffect } from 'react';
 
-
 function Layer() {
   const [showNavbar, setShowNavbar] = useState(false);
   const [progressNavbar, setProgressNavbar] = useState(0);
@@ -65,9 +64,9 @@ function Layer() {
     }
   };
 
-  if(false){
+  if(loading){
     return (
-      <Loader progress={progress}/>
+      <Loader />
     )
   }
 

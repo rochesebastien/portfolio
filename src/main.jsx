@@ -5,7 +5,7 @@ import './index.scss'
 
 import { BrowserRouter } from "react-router-dom";
 
-
+AOS.init();
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>

@@ -2,7 +2,7 @@
 function Experiences() {
     return (
             <div className="career_list">
-              <div className="career_item">
+              <div className="career_item" >
                 <div className="circle"></div>
                 <h3>Alternant - Développeur Full Stack</h3>
                 <ul>

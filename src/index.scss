@@ -63,6 +63,31 @@ body {
   background-color: rgba(0, 0, 0, 0.395);
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar:hover {
+  background: rgba(182, 179, 179, 0.396); ;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  // box-shadow: inset 0 0 5px rgb(255, 255, 255); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #eb5e28; 
+  border-radius: 5px;
+  width: 15px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: white; 
+}
+
 @keyframes PopUp {
   0%{
     opacity: 0;

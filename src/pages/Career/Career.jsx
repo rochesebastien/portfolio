@@ -16,7 +16,7 @@ function Career() {
   }
     return (
       <div id="career" className="career page_container">
-        <div className="career_ctn">
+        <div className="career_ctn" data-aos="fade-in">
           <div className="actions_row">
             <button className={toggle ? 'active' : ''} onClick={switchTrue}>Expériences</button>
             <button className={!toggle ? 'active' : ''}onClick={switchFalse}>Formations</button>

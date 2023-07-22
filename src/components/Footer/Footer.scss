@@ -6,7 +6,9 @@
     justify-content: space-around;
     align-items: center;
     font-family: "Mona Sans";
-    background-color: red;
+    background-color: rgba(0, 0, 0, 0.395);
+    -webkit-box-shadow: inset 0px -50px 37px -4px rgba(0,0,0,0.89); 
+    box-shadow: inset 0px -50px 37px -4px rgba(0,0,0,0.89);
     font-size: calc(0.9 * var(--text_size));
     text-align: center;
 

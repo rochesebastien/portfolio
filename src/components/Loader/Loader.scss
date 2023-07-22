@@ -15,8 +15,26 @@
         font-size: var(--big_title_size);
     }
     .progress{
-        color: #eb5e28;
+        width: 20%;
+        height: 5px;
+        background: #eb5e28;
         font-weight: bold;
         font-size: var(--big_title_size);
+        animation: 3s bounceLeftRight infinite ease;
+    }
+}
+
+@keyframes bounceLeftRight {
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-200px);
+    }
+    75%{
+        transform: translateX(200px);
+    }
+    100%{
+        transform: translateX(0);
     }
 }

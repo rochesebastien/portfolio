@@ -13,7 +13,7 @@ function Projects() {
   return (
     <div id="projects" className="projects">
             {ProjectsData.map((project,index) => (
-                    <Link to={`/projects/${project.id}`} className='project_item' onClick={(e) => handleClick(index)} key={project.id}>
+                    <Link to={`/projects/${project.id}`} className='project_item' onClick={(e) => handleClick(index)} key={project.id} data-aos="fade-in">
                       <div className="left">
                         <div className="hover">
                         </div>
