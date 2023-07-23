@@ -71,7 +71,6 @@
       .lang{
         font-family: "Mona Sans";
         text-transform: uppercase;
-        text-align: center;
         font-size: calc(0.7 * var(--title_size));
         font-style: normal;
         -webkit-text-stroke: 1.5px white;
@@ -83,6 +82,10 @@
         transform: rotate(180deg);
         text-align: center;
         text-indent: 3rem;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        max-height: 100%;
+        overflow: hidden;
       } 
     }
     

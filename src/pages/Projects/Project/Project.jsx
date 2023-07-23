@@ -28,14 +28,29 @@ function Project(props){
         <hr />
         <p>{project.description}</p> 
         <hr />
-        <div className="lang_info">
+        <div className="info">
           <span className='first'>Stack : </span>
           <span className='items'>{project.languages}</span>
         </div>
+        <div className="info">
+          <span className='first'>Quand : </span>
+          <span className='items'>{project.year}</span>
+        </div>
+        <div className="info">
+          <span className='first'>Catégorie : </span>
+          <span className='items'>{project.category}</span>
+        </div>
+        <div className="info">
+          <span className='first'>Contexte : </span>
+          <span className='items'>{project.context}</span>
+        </div>
         <div className="links">
-          {project.pdf_link !="" ? <a href={project.pdf_link} target="_blank">Documentation</a> : ''}
+          {project.website ? <a href={project.website} target="_blank">Site web</a> : ''}
           {project.github_link !="" ? <a href={project.github_link} target="_blank">Github du projet</a> : ''}
+          {project.pdf_link !="" ? <a href={project.pdf_link} target="_blank">Documentation</a> : ''}
           {project.figma_link ? <a href={project.figma_link} target="_blank">Proto Figma</a> : ''}
+          {project.behance_link ? <a href={project.behance_link} target="_blank">Behance</a> : ''}
+
         </div>
         <hr />
       </div>

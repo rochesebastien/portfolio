@@ -38,7 +38,7 @@ function Layer() {
         }
         return newProgress;
       });
-    }, 200); // Rafraîchissement toutes les 0.2 seconde
+    }, 1); // Rafraîchissement toutes les 0.2 seconde
 
     return () => {
       clearInterval(interval);

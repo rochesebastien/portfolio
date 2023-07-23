@@ -14,6 +14,7 @@
         border-bottom: 7px solid white;
         margin-bottom: 2rem;
         padding: 1.5rem 0px;
+        z-index: 2;
 
         span{
             color: #eb5e28;
@@ -50,10 +51,10 @@
             border: none;
         }
 
-        .lang_info{
+        .info{
             font-family: "Mona Sans";
             font-size: var(--text_size); 
-            padding: 2rem 0px;
+            padding: 1rem 0px;
 
             .first{
                 color: white;
@@ -138,10 +139,10 @@
                 border: none;
             }
     
-            .lang_info{
+            .info{
                 font-family: "Mona Sans";
                 font-size: var(--text_size); 
-                padding: 2rem 0px;
+                padding: 1rem 0px;
     
                 .first{
                     color: white;
