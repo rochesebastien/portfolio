@@ -64,7 +64,7 @@ function Layer() {
     }
   };
 
-  if(loading){
+  if(true){
     return (
       <Loader />
     )
