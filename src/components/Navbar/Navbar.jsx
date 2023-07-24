@@ -23,11 +23,6 @@ function Navbar(props) {
         document.getElementById("skills").scrollIntoView({ behavior: 'smooth' });
       };
 
-      const ScrollToCareer = (event) => {
-        event.preventDefault();
-        document.getElementById("career").scrollIntoView({ behavior: 'smooth' });
-      };
-
       const ScrollToContact = (event) => {
         event.preventDefault();
         document.getElementById("contact").scrollIntoView({ behavior: 'smooth' });
@@ -43,7 +38,6 @@ function Navbar(props) {
                         <a onClick={ScrollToAbout}>A propos</a>
                         <a onClick={ScrollToProjects}>Projets</a>
                         <a onClick={ScrollToSkills}>Compétences</a>
-                        <a onClick={ScrollToCareer}>Carrière</a>
                         <a onClick={ScrollToContact}>Contact</a>
                     </div>
                     <div className="bar" style={{ width: props.progress+"%" }}></div>

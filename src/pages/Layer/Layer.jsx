@@ -82,7 +82,7 @@ function Layer() {
         <Projects/>
         <Title section_name='Talents' direction='left'/>
         <Skills />
-        <Title section_name='Contact' direction='left'/>
+        <Title section_name='Contact' direction='right'/>
         <Contact />
         <Footer />
     </div>

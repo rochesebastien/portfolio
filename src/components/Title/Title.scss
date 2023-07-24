@@ -1,20 +1,4 @@
 
-@media screen and (max-width: 699px) {
-
-    .title_ctn{
-        .section_title {
-            font-size: calc(0.8 * var(--big_title_size)) !important;
-              span {
-                text-indent: 0px!important;
-                line-height: 70%!important;
-                width: 100%;
-                text-align: center;
-                margin-right: 0!important;
-              }
-            } 
-    }
-    
-  }
 
 .title_ctn {
   width: 100%;
@@ -69,3 +53,21 @@
   }
 }
 
+
+@media screen and (max-width: 699px) {
+
+  .title_ctn{
+      .section_title {
+        width: 48%;
+          font-size: calc(0.8 * var(--big_title_size)) !important;
+            span {
+              text-indent: 0px!important;
+              line-height: 70%!important;
+              text-align: center;
+              margin-right: 0!important;
+              width: 100%;
+            }
+          } 
+  }
+  
+}
