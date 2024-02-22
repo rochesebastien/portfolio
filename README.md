@@ -25,4 +25,4 @@ You can see the result here : **[sebastien-roche.fr](https://sebastien-roche.fr/
 
 ---
 
-2023 - Site entirely coded by me
+2024 - © Site entirely coded by me

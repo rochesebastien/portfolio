@@ -8,8 +8,7 @@ import { useState, useEffect } from 'react';
 
 import Project from "./pages/Projects/Project/Project";
 
-import Layer from "./pages/Layer/Layer";
-
+import Layout from "./pages/Layout/Layout";
 
 function App() {
 
@@ -17,7 +16,8 @@ function App() {
       <div className="App">
              <Routes> 
               <Route path="/projects/:id" element={<Project />} /> 
-              <Route path="" element={<Layer />} /> 
+              <Route path="" element={<Layout />} /> 
+              <Route path="/test" element={<Layout />} /> 
             </Routes> 
       </div>
     )
