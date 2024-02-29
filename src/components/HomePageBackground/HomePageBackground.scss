@@ -1,41 +1,70 @@
-.bg{
+@use 'sass:math';
+
+.bg {
     display: block;
     width: 100vw;
     height: 100vh;
     background-color: #13100F;
 
-    .bg_animate{
+    .bg_animate {
         display: flex;
         flex-direction: column;
-        padding-top: 4rem;
+        // padding-top: 4rem;
         margin: 0 auto;
     }
 
-    .row{
+    .wrap {
         display: flex;
+        flex-wrap: wrap;
+        opacity: 0.6;
 
-        .square{
-            width: 3vw;
+        .square {
+            min-width: 3vw;
             height: 3vw;
             border: 0.1px solid rgba(207, 123, 90, 0.5);
         }
     }
-    
-    @for $i from 1 to 31 {
-        .test:nth-child(3n + #{$i}) {
-           animation: #{$i} linear ease-in-out;
-          }
+
+    .square {
+        animation: 3s infinite 1s FadeBG;
+        animation-delay: random(5) + s;
+        // animation: 3s linear 1s FadeBG;
     }
 
-    @keyframes FadeBG {
-        0%{
-            background-color: rgba(230, 117, 11, 0.219);
+    // 32 x 14
+    @for $i from 1 through 448 {
+        .square:nth-child(3n + #{$i}) {
+            animation: 4s infinite 1s FadeBG;
+            animation-delay: random(5) + s;
         }
-        50%{
-            background-color: #eb5f28cc;
-        }
-        100%{
-            background-color: #EB5E28;
-        }
+    }
+
+}
+
+@keyframes FadeBG {
+    0% {
+        background-color: rgba(230, 117, 11, 0.034);
+    }
+
+    25% {
+        background-color: #eb5f2815;
+    }
+
+    50% {
+        background-color: #EB5E28;
+    }
+
+    100% {
+        background-color: rgba(230, 117, 11, 0.034);
+    }
+}
+
+@keyframes slidein {
+    from {
+        transform: scaleX(0);
+    }
+
+    to {
+        transform: scaleX(1);
     }
 }
