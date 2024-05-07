@@ -7,7 +7,7 @@
 
 This repository is my dev version of my portfolio files.
 You can see the prod version at this repository : 
-https://github.com/rochesebastien/rochesebastien.github.io
+https://rsebastien.vercel.app/
 
 ----
 

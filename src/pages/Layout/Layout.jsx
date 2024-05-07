@@ -12,6 +12,8 @@ import Contact from '../Contact/Contact';
 import Footer from '../../components/Footer/Footer';
 import Loader from '../../components/Loader/Loader';
 
+import ComingBack from '../ComingBack/ComingBack';
+
 import { useState, useEffect } from 'react';
 
 function Layer() {
@@ -72,8 +74,8 @@ function Layer() {
 
     return (
       <div>
-        <Navbar toggled={showNavbar} progress={progressNavbar} />
-         {/* <video src="/assets/bg.mp4" autoplay loop></video> */}
+        <ComingBack />
+        {/* <Navbar toggled={showNavbar} progress={progressNavbar} />
         <Home />
         <Title section_name='A propos' direction='left'/> 
         <About/>
@@ -84,7 +86,7 @@ function Layer() {
         <Skills />
         <Title section_name='Contact' direction='right'/>
         <Contact />
-        <Footer />
+        <Footer /> */}
     </div>
     );
   }

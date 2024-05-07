@@ -1,0 +1,15 @@
+.coming_back{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+
+    h1{
+        font-family: "Mona Sans";
+        font-size: var(--text_size);
+        font-weight: bold;
+        color: grey;
+    }
+}
